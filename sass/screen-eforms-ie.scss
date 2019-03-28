@@ -1,0 +1,38 @@
+/*   IE STYLESHEET
+ *   v1.0 - 2016-10-01
+ *
+ */
+$render : "ie";
+$context : "eforms";
+// for inline styles: $image-path : "${fullContext}/base/files/getImageAction.do?key=kl_";
+$image-path : "../../base/files/getImageAction.do?key=kl_";
+$image-ext : "-PNG";
+
+
+//  RESET AND NORMALIZE IE LEGACY STYLING
+@import "partials/normalize-ie";
+
+
+//  ICONS
+@import "partials/icons";
+
+
+//  SET UP BASE DESIGN
+@import "partials/base";
+
+
+//  FOR LEGACY IE, IMPORT SUBSET OF CSS WITHOUT MEDIA QUERIES
+@import "partials/tweakpoint-1";
+@import "partials/tweakpoint-2";
+@import "partials/tweakpoint-3";
+@import "partials/tweakpoint-4";
+
+
+//  PARTIALS FOR DIGITAL SERVICES FORMS
+@import "partials/partials-eforms";
+
+
+//  IE FIXES
+@import "partials/fixes-ie";
+@import "partials/fixes-ie9";
+@import "partials/fixes-ie8";
