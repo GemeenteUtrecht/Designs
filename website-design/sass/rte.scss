@@ -1,0 +1,12 @@
+$render : "responsive";
+$context : "site";
+$image-path : "../Images/svg";
+$image-ext : ".svg";
+
+//  RESET AND NORMALIZE BROWSER STYLING
+@import "partials/normalize";
+
+//  ICONS
+@import "partials/icons";
+
+@import "partials/base";
