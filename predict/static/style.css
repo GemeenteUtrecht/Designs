@@ -1,0 +1,87 @@
+body {
+	padding: 0 2em;
+	background: #fefefe;
+}
+
+body, button, code, input, select, textarea {
+	font: normal 1em/1.4 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Verdana,sans-serif;
+}
+
+header{
+	padding-block-end: 0.6em;
+	padding-block-start: 1em;
+	padding-inline-end: 0.6em;
+}
+
+header img{
+	width: 10em;
+}
+
+h1{
+/*	font-size: 130%;*/
+}
+
+label{
+	clear: both;
+	display: block;
+	font-weight: 800;
+	padding-block-end: 0.6em;
+}
+
+em{
+	font-size: 120%;
+	font-style: normal;
+	font-weight: 800;
+	border: 2px solid transparent;
+	padding: 4px;
+	border-radius: 5px;
+}
+
+em.melding{
+	padding-inline-end: 1.6em;
+	background:url("melding.svg") right 5px;
+	background-repeat: no-repeat;
+	padding-inline-start: 0;
+}
+
+em.klacht{
+	padding-inline-end: 1.6em;
+	background:url("klacht.svg") right 5px;
+	background-repeat: no-repeat;
+	padding-inline-start: 0;
+}
+
+.font10, .font9{
+	background: hsl(120, 60%, 90%);
+	border-color: hsl(120, 60%, 15%);
+	color: hsl(120, 60%, 15%);
+}
+
+ .font8, .font7{
+	background: hsl(48, 100%, 90%);
+	border-color: hsl(48, 100%, 15%);
+	color: 2px solid hsl(48, 100%, 15%);
+}
+
+.font6, .font5{
+	background: hsl(0, 100%, 95%);
+	border-color: hsl(0, 100%, 15%);
+	color: hsl(0, 100%, 15%);
+}
+
+
+.font4, .font3, .font2, .font1, .font0{
+	background: hsl(0, 100%, 95%);
+	border-color: hsl(0, 100%, 95%);
+	color: hsl(0, 100%, 95%);
+}
+
+textarea{
+	height: 10em;
+	padding: 1em;
+	width: 30em;
+	margin-block-end: 1em;
+}
+
+main{
+}

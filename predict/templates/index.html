@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="nl" class="utrecht-theme utrecht-document">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+         <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@utrecht/component-library-css/dist/html.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@utrecht/design-tokens/dist/index.css"
+    />
+        <link rel="stylesheet" type="text/css" href="/static/style.css" media="all">
+        <script src="/static/app.js"></script>
+        <script async src="https://unpkg.com/@nl-design-system-unstable/theme-switcher">
+        
+    </script>
+  <script
+      async
+      src="https://unpkg.com/@utrecht/web-component-library-stencil/dist/utrecht/utrecht.esm.js"
+      type="module"></script>
+        <title>Utrecht predict</title>
+    </head>
+    <body>
+        <header>
+            <utrecht-logo></utrecht-logo>
+<div><nl-theme-switcher></nl-theme-switcher></div>
+        </header>
+        <main class="utrecht-html">
+                <h1>POC ai klacht vs melding</h1>
+                <label for="textInput">Wat wil je kwijt?</label>
+                <textarea id="textInput" name="textInput"></textarea>
+                <div id="predictionResult"></div>
+                <script src="/static/app.js"></script>
+        </main>
+    </body>
+</html>
